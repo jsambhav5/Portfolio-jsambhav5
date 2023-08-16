@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 		template: "%s | jsambhav5",
 		default: "jsambhav5",
 	},
-	description: "jsambhav5 Home Page",
+	description: "jsambhav5 Portfolio Website",
 };
 
 export default function RootLayout({
