@@ -6,7 +6,7 @@ type Props = {};
 
 const Header = (props: Props) => {
 	return (
-		<header className="sticky top-0 pl-3 pr-3 flex items-start justify-between max-w-7xl mx-auto z-20">
+		<header className="sticky top-0 p-3 flex items-start justify-between max-w-7xl mx-auto z-20 ">
 			<motion.div
 				initial={{ x: -500, opacity: 0, scale: 0.5 }}
 				animate={{ x: 0, opacity: 1, scale: 1 }}
@@ -14,16 +14,19 @@ const Header = (props: Props) => {
 				className="flex flex-row items-center"
 			>
 				<SocialIcon
+					style={{ height: "40px" }}
 					url="https://github.com/jsambhav5"
 					fgColor="gray"
 					bgColor="transparent"
 				/>
 				<SocialIcon
+					style={{ height: "40px" }}
 					url="https://linkedin.com/in/jsambhav5"
 					fgColor="gray"
 					bgColor="transparent"
 				/>
 				<SocialIcon
+					style={{ height: "40px" }}
 					url="http://jsambhav5.com"
 					fgColor="gray"
 					bgColor="transparent"
@@ -37,6 +40,7 @@ const Header = (props: Props) => {
 				className="flex flex-row items-center"
 			>
 				<SocialIcon
+					style={{ height: "40px" }}
 					className="cursor-pointer"
 					network="email"
 					fgColor="gray"
