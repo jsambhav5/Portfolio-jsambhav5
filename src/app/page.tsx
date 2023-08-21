@@ -1,7 +1,12 @@
 "use client";
-import About from "@/components/About";
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
+import {
+	Header,
+	Hero,
+	About,
+	Experience,
+	Skills,
+	Projects,
+} from "@/components";
 
 export default function Home() {
 	return (
@@ -12,6 +17,15 @@ export default function Home() {
 			</section>
 			<section id="about" className="snap-center">
 				<About />
+			</section>
+			<section id="experience" className="snap-center">
+				<Experience />
+			</section>
+			<section id="skills" className="snap-center">
+				<Skills />
+			</section>
+			<section id="projects" className="snap-center">
+				<Projects />
 			</section>
 		</div>
 	);
