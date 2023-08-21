@@ -6,6 +6,7 @@ import {
 	Experience,
 	Skills,
 	Projects,
+	ContactMe,
 } from "@/components";
 
 export default function Home() {
@@ -26,6 +27,9 @@ export default function Home() {
 			</section>
 			<section id="projects" className="snap-center">
 				<Projects />
+			</section>
+			<section id="contactMe" className="snap-center">
+				<ContactMe />
 			</section>
 		</div>
 	);
