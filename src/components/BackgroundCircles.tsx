@@ -19,7 +19,7 @@ const BackgroundCircles = (props: Props) => {
 			<div className="absolute border border-[#434343] rounded-full h-[300px] w-[300px] mt-52 animate-ping"></div>
 			<div className="absolute border border-[#434343] rounded-full h-[500px] w-[500px] mt-52 animate-ping"></div>
 			<div className="absolute border border-[#434343] rounded-full h-[650px] w-[650px] mt-52 animate-ping"></div>
-			<div className="absolute border border-[#F7AB0A] rounded-full h-[500px] w-[500px] mt-52 animate-pulse opacity-20"></div>
+			<div className="absolute border border-[#F7AB0A] rounded-full h-[355px] w-[355px] lg:h-[500px] lg:w-[500px] mt-52 animate-pulse opacity-20"></div>
 		</motion.div>
 	);
 };
