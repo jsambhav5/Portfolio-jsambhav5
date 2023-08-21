@@ -25,10 +25,13 @@ const Hero = (props: Props) => {
 				width={200}
 				className="relative rounded-full h-32 w-32 mx-auto mb-5"
 			/>
-			<h2 className="text-sm lg:text-l uppercase text-gray-500 pb-2 tracking-[15px] mb-5">
-				Software Engineer
-			</h2>
-			<h1 className="text-xl lg:text-2xl font-semibold px-10">
+			<div className="max-w-[355px] lg:max-w-[500px]">
+				<h2 className="text-sm lg:text-l uppercase text-gray-500 pb-2 tracking-[7px] lg:tracking-[15px] mb-2 lg:mb-5">
+					Software Engineer
+				</h2>
+			</div>
+
+			<h1 className="text-l lg:text-2xl font-semibold px-10 mb-[20px]">
 				<span>{text}</span>
 				<Cursor cursorColor="#F7AB0A" />
 			</h1>
