@@ -35,6 +35,12 @@ const Hero = (props: Props) => {
 				<span>{text}</span>
 				<Cursor cursorColor="#F7AB0A" />
 			</h1>
+			<div>
+				<button className="button">About</button>
+				<button className="button">Experience</button>
+				<button className="button">Skills</button>
+				<button className="button">Projects</button>
+			</div>
 		</div>
 	);
 };
