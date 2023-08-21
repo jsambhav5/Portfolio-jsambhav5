@@ -36,7 +36,7 @@ const Hero = (props: Props) => {
 					<span>{text}</span>
 					<Cursor cursorColor="#F7AB0A" />
 				</h1>
-				<div>
+				<div className="mb-2 mt-2">
 					<Link href="#about">
 						<button className="heroButton">Experience</button>
 					</Link>
