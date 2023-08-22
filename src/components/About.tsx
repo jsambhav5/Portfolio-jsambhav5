@@ -30,7 +30,7 @@ const About = (props: Props) => {
 					</span>{" "}
 					Background About Me
 				</h4>
-				<p className="text-m md:text-l lg:text-xl">
+				<p className="text-base text-justify">
 					I am Sambhav Jain and I am a Software Engineer. I am B.Tech
 					in Computer Science and Engineering and I am a Full-Stack
 					Developer working on MERN Stack. I am also a DSA enthusiast.
