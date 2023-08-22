@@ -8,12 +8,12 @@ const BackgroundCircles = (props: Props) => {
 		<motion.div
 			initial={{ opacity: 0 }}
 			whileInView={{
-				scale: [1, 2, 3, 2, 1],
+				scale: [1, 1.5, 2, 1.5, 1],
 				opacity: [0.2, 0.4, 0.6, 0.8, 1.0],
 				borderRadius: ["20%", "40%", "60%", "80%", "100%"],
 			}}
 			viewport={{ once: true }}
-			transition={{ duration: 2.5 }}
+			transition={{ duration: 1.5 }}
 			className="relative flex justify-center items-center"
 		>
 			{/* <div className="absolute border border-[#434343] rounded-full h-[200px] w-[200px] mt-52 animate-ping "></div>
