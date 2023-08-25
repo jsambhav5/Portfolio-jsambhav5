@@ -23,7 +23,7 @@ const Hero = (props: Props) => {
 			<div className="max-w-[355px] lg:max-w-[500px] z-20 items-center justify-center text-center">
 				<Image
 					alt="logo"
-					src="/images/me.jpg"
+					src="/images/me/1.jpg"
 					height={200}
 					width={200}
 					className="relative rounded-full h-32 w-32 mx-auto mb-5 object-cover"

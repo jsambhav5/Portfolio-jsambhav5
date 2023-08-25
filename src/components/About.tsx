@@ -19,7 +19,7 @@ const About = (props: Props) => {
 				transition={{ duration: 1.2 }}
 				whileInView={{ x: 0, opacity: 1 }}
 				viewport={{ once: true }}
-				src="/images/me2.jpg"
+				src="/images/me/2.jpg"
 				className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 2xl:w-[350px] 2xl:h-[400px]"
 			/>
 			<div className="space-y-10 px-0 md:px-10">

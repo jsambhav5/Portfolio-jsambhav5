@@ -1,0 +1,53 @@
+[
+	{
+		"company": "Apisero",
+		"designation": "Software Engineer",
+		"logo": "/images/companies/apisero.png",
+		"technologies": [
+			{
+				"name": "JavaScript",
+				"logo": "/images/technologies/javascript.png"
+			},
+			{
+				"name": "TypeScript",
+				"logo": "/images/technologies/typescript.png"
+			},
+			{
+				"name": "NodeJS",
+				"logo": "/images/technologies/node.png"
+			},
+			{
+				"name": "ReactJS",
+				"logo": "/images/technologies/react.png"
+			},
+			{
+				"name": "NextJS",
+				"logo": "/images/technologies/next.png"
+			},
+			{
+				"name": "PostgreSQL",
+				"logo": "/images/technologies/postgresql.png"
+			},
+			{
+				"name": "MySQL",
+				"logo": "/images/technologies/mysql.png"
+			},
+			{
+				"name": "MongoDB",
+				"logo": "/images/technologies/mongodb.png"
+			},
+			{
+				"name": "AWS EC2",
+				"logo": "/images/technologies/ec2.png"
+			}
+		],
+		"start": "09/21",
+		"end": "Present",
+		"summary": [
+			"Designing and Developing frontend using ReactJS and NextJS",
+			"Developing a REST API for the backend using NodeJS and Django",
+			"Developing Databases using PostgreSQL, MySQL, MongoDb",
+			"UAT and Production Deployment using AWS EC2"
+		]
+	}
+]
