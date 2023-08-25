@@ -16,7 +16,7 @@ const ExperienceCard = (props: Props) => {
 				className="rounded-full w-[70px] h-[70px]  md:w-[90px] md:h-[90px] object-cover object-top"
 			/>
 			<div className="px-0 md:px-10">
-				<h4 className="text-3xl md:text-4xl font-light">
+				<h4 className="text-2xl md:text-4xl font-light">
 					{props.data.designation}
 				</h4>
 				<p className="text-2xl font-bold mt-1 uppercase">
