@@ -19,7 +19,10 @@ const Experience = (props: Props) => {
 			<div className="w-full h-full flex space-x-5 p-10 snap-x snap-mandatory">
 				{/* <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory"> */}
 				{experiences.map((experience) => (
-					<ExperienceCard data={experience} />
+					<ExperienceCard
+						key={experience.company}
+						data={experience}
+					/>
 				))}
 			</div>
 		</motion.div>

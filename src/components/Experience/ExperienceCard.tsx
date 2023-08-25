@@ -25,6 +25,7 @@ const ExperienceCard = (props: Props) => {
 				<div className="flex space-x-2 my-2">
 					{props.data.technologies.map((technology: any) => (
 						<Image
+							key={technology.name}
 							src={technology.logo}
 							alt="typescript"
 							height="32"
@@ -40,7 +41,7 @@ const ExperienceCard = (props: Props) => {
 
 				<ul className="list-disc space-y-4 ml-5 text-sm lg:text-lg">
 					{props.data.summary.map((summaryPoint: string) => (
-						<li>{summaryPoint}</li>
+						<li key={summaryPoint}>{summaryPoint}</li>
 					))}
 				</ul>
 			</div>
