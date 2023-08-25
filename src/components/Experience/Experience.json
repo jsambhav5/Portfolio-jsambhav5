@@ -1,0 +1,28 @@
+[
+	{
+		"company": "Apisero",
+		"designation": "Software Engineer",
+		"logo": "/images/companies/apisero.png",
+		"technologies": [
+			{
+				"name": "JavaScript",
+				"logo": "/images/technologies/javascript.png"
+			},
+			{
+				"name": "NodeJS",
+				"logo": "/images/technologies/node.png"
+			},
+			{
+				"name": "ReactJS",
+				"logo": "/images/technologies/react.png"
+			},
+			{
+				"name": "TypeScript",
+				"logo": "/images/technologies/typescript.png"
+			}
+		],
+		"start": "09/20",
+		"end": "Present",
+		"summary": ["Hi", "Hello"]
+	}
+]
